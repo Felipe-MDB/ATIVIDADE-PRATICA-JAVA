@@ -33,7 +33,7 @@ public class SalarioLiquido {
 				salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 				
 				// Saída de Dados
-				System.out.printf("\nSalário Liquido: %.2f\n", salarioLiquido);
+				System.out.printf(Locale.US, "\nSalário Liquido: %.2f\n", salarioLiquido);
 				
 				leia.close();
 
