@@ -15,7 +15,7 @@ public class AtividadeVetor {
 					System.out.print("Digite o número que você deseja encontrar: ");
 				numeroProcurado = leia.nextInt();
 			
-				// Laço de repetição
+				// Laço de repetição / o if deve ficar dentro das chaves do for
 				for(int i = 0; i < 10; i++) {
 					
 					// Laço condicional para verificar se o número atual é o que buscamos
